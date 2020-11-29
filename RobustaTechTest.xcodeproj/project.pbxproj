@@ -40,7 +40,7 @@
 		ED0AB9CE25728D88004FE3DA /* RepositoriesVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED0AB9CC25728D88004FE3DA /* RepositoriesVC.xib */; };
 		ED0AB9D325728F08004FE3DA /* RepositoriesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0AB9D225728F08004FE3DA /* RepositoriesPresenter.swift */; };
 		ED0AB9D925728FA3004FE3DA /* ReposContainers.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0AB9D825728FA3004FE3DA /* ReposContainers.swift */; };
-		ED0AB9E92572A256004FE3DA /* HomeSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0AB9E82572A256004FE3DA /* HomeSpy.swift */; };
+		EDBCDDC42574398C00B5E19E /* HomeTestCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBCDDC32574398C00B5E19E /* HomeTestCases.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,7 +100,7 @@
 		ED0AB9CC25728D88004FE3DA /* RepositoriesVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RepositoriesVC.xib; sourceTree = "<group>"; };
 		ED0AB9D225728F08004FE3DA /* RepositoriesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoriesPresenter.swift; sourceTree = "<group>"; };
 		ED0AB9D825728FA3004FE3DA /* ReposContainers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReposContainers.swift; sourceTree = "<group>"; };
-		ED0AB9E82572A256004FE3DA /* HomeSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSpy.swift; sourceTree = "<group>"; };
+		EDBCDDC32574398C00B5E19E /* HomeTestCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTestCases.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,9 +162,9 @@
 		ED0AB8CA25711AB8004FE3DA /* RobustaTechTestTests */ = {
 			isa = PBXGroup;
 			children = (
-				ED0AB9E42572A0CE004FE3DA /* Spies */,
 				ED0AB8CB25711AB8004FE3DA /* RobustaTechTestTests.swift */,
 				ED0AB8CD25711AB8004FE3DA /* Info.plist */,
+				EDBCDDC32574398C00B5E19E /* HomeTestCases.swift */,
 			);
 			path = RobustaTechTestTests;
 			sourceTree = "<group>";
@@ -406,14 +406,6 @@
 			path = "Repos Details";
 			sourceTree = "<group>";
 		};
-		ED0AB9E42572A0CE004FE3DA /* Spies */ = {
-			isa = PBXGroup;
-			children = (
-				ED0AB9E82572A256004FE3DA /* HomeSpy.swift */,
-			);
-			path = Spies;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -579,8 +571,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDBCDDC42574398C00B5E19E /* HomeTestCases.swift in Sources */,
 				ED0AB8CC25711AB8004FE3DA /* RobustaTechTestTests.swift in Sources */,
-				ED0AB9E92572A256004FE3DA /* HomeSpy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

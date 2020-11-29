@@ -12,14 +12,11 @@ class HomePresenter: BasePresenter<HomeView> {
     var expandedCell = [Int]()
     var repositories = [Repositories]()    
     @Injected var useCase: RepositoriesUseCase
-    //MARK: - pagination Vars   
-    internal var limit = 20
-    internal var totalCount: Int?
-        //MARK:- Life Cycle
-        override func viewDidAttach() {
-            expandedCell = [0]
-            getRepositories()
-        }
+    //MARK:- Life Cycle
+    override func viewDidAttach() {
+        expandedCell = [0]
+        getRepositories()
+    }
     //MARK:- tableView Methods
     func numberOfRows(at section: Int ) -> Int {
         repositories.count
